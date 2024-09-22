@@ -33,14 +33,13 @@ namespace ConsoleApp1.Utilities
             this.service = new CrmServiceClient(ConnectionString);
         }
 
-        // Метод для управления продуктами в инвентаре (добавление/вычитание)
         public InventoryProduct manageInventoryProduct(string inventoryName, string productName, int quantity, string type)
         {
             try
             {
                 Console.WriteLine($"Attempting to retrieve Inventory and Product for {type}...");
 
-                // Получаем идентификаторы Inventory и Product
+           
                 Guid inventoryId = GetEntityIdByName("cr651_inventory", "cr651_name", inventoryName);
                 Guid productId = GetEntityIdByName("cr651_products", "cr651_name", productName);
 
@@ -52,7 +51,7 @@ namespace ConsoleApp1.Utilities
 
                 Console.WriteLine($"Inventory ID: {inventoryId}, Product ID: {productId}");
 
-                // Запрос для получения продукта в инвентаре
+   
                 QueryExpression inventoryProductQuery = new QueryExpression
                 {
                     EntityName = "cr651_inventory_product",
@@ -68,22 +67,22 @@ namespace ConsoleApp1.Utilities
             }
                 };
 
-                // Выполняем запрос
+    
                 Console.WriteLine("Executing query...");
                 EntityCollection inventoryProductList = service.RetrieveMultiple(inventoryProductQuery);
 
-                // Объект InventoryProduct для возврата результата
+ 
                 InventoryProduct inventoryProductObj = null;
 
-                // Проверяем, нашелся ли продукт в инвентаре
+   
                 if (inventoryProductList.Entities.Count > 0)
                 {
-                    // Существующая запись
+     
                     Entity list = inventoryProductList.Entities[0];
                     inventoryProductObj = new InventoryProduct();
                     inventoryProductObj.inventoryProductId = list.Id;
 
-                    // Получаем значения из сущности
+
                     EntityReference inventory = list.GetAttributeValue<EntityReference>("cr651_fk_inventory");
                     EntityReference product = list.GetAttributeValue<EntityReference>("cr651_fk_product");
                     EntityReference transactionCurrency = list.GetAttributeValue<EntityReference>("transactioncurrencyid");
@@ -103,10 +102,10 @@ namespace ConsoleApp1.Utilities
                         inventoryProductObj.currencyId = transactionCurrency.Id;
                     }
 
-                    // Обработка типов операций
+     
                     if (type == "subtraction")
                     {
-                        // Проверяем, достаточно ли количества для вычитания
+           
                         if (inventoryProductObj.quantity >= quantity)
                         {
                             inventoryProductObj.quantity -= quantity;
@@ -120,19 +119,19 @@ namespace ConsoleApp1.Utilities
                     }
                     else if (type == "addition")
                     {
-                        // Добавляем количество
+           
                         inventoryProductObj.quantity += quantity;
                         Console.WriteLine("Quantity updated after addition.");
                     }
 
-                    // Обновляем запись в CRM
+      
                     Entity updatedInventoryProduct = new Entity("cr651_inventory_product", inventoryProductObj.inventoryProductId);
                     updatedInventoryProduct["cr651_int_quantity"] = inventoryProductObj.quantity;
                     service.Update(updatedInventoryProduct);
                 }
                 else if (type == "addition")
                 {
-                    // Получаем валюту через функцию GetFirstPriceListCurrency
+             
                     EntityReference currency = GetFirstPriceListCurrency();
 
                     if (currency == null)
@@ -141,7 +140,7 @@ namespace ConsoleApp1.Utilities
                         return null;
                     }
 
-                    // Создаем новую запись в инвентаре
+          
                     inventoryProductObj = new InventoryProduct
                     {
                         inventoryId = inventoryId,
@@ -174,7 +173,7 @@ namespace ConsoleApp1.Utilities
             }
         }
 
-        // Функция для получения первой доступной валюты из прайс-листа
+
         private EntityReference GetFirstPriceListCurrency()
         {
             try
@@ -209,14 +208,14 @@ namespace ConsoleApp1.Utilities
             }
         }
 
-        // Метод для удаления всех продуктов в инвентаре
+    
         public void DeleteAllInventoryProducts()
         {
             try
             {
                 Console.WriteLine("Deleting all inventory products...");
 
-                // Запрос для получения всех продуктов в инвентаре
+             
                 QueryExpression query = new QueryExpression
                 {
                     EntityName = "cr651_inventory_product",
@@ -225,12 +224,12 @@ namespace ConsoleApp1.Utilities
 
                 EntityCollection inventoryProductList = service.RetrieveMultiple(query);
 
-                // Проверяем, есть ли записи
+             
                 if (inventoryProductList.Entities.Count > 0)
                 {
                     foreach (Entity product in inventoryProductList.Entities)
                     {
-                        // Удаляем каждую запись
+                
                         service.Delete("cr651_inventory_product", product.Id);
                         Console.WriteLine($"Deleted product with ID: {product.Id}");
                     }
@@ -247,7 +246,7 @@ namespace ConsoleApp1.Utilities
             }
         }
 
-        // Метод для получения идентификатора сущности по имени
+
         private Guid GetEntityIdByName(string entityName, string attributeName, string entityNameValue)
         {
             QueryExpression query = new QueryExpression
