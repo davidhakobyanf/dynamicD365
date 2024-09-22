@@ -24,11 +24,10 @@ namespace ConsoleApp1
                 string type = GetOperationType();
                 Console.WriteLine($"You selected: {type}");
 
-                // Если выбрано удаление всех продуктов
                 if (type == "delete_all")
                 {
                     d365Connector.DeleteAllInventoryProducts();
-                    return; // Завершаем выполнение после удаления всех продуктов
+                    return;
                 }
 
                 Console.WriteLine("Please enter Inventory Name:");
@@ -43,12 +42,11 @@ namespace ConsoleApp1
 
                 if (int.TryParse(quantityInput, out quantity))
                 {
-                    // Значение успешно преобразовано в int, можно продолжать
                 }
                 else
                 {
                     Console.WriteLine("Invalid quantity entered. Please enter a valid number.");
-                    return;  // Завершить выполнение, если введено некорректное значение
+                    return;
                 }
 
                 InventoryProduct inventoryProductList = d365Connector.manageInventoryProduct(inventoryName, productName, quantity, type);
@@ -59,7 +57,6 @@ namespace ConsoleApp1
             }
         }
 
-        // Метод GetOperationType
         public static string GetOperationType()
         {
             while (true)
@@ -70,10 +67,8 @@ namespace ConsoleApp1
                 Console.WriteLine("3. Delete All Inventory Products");
                 Console.Write("Enter your choice (1, 2 or 3): ");
 
-                // Чтение ввода пользователя
                 string input = Console.ReadLine();
 
-                // Проверка ввода и возврат соответствующего типа операции
                 if (input == "1")
                 {
                     return "addition";
@@ -88,7 +83,6 @@ namespace ConsoleApp1
                 }
                 else
                 {
-                    // Сообщение об ошибке и повтор запроса
                     Console.WriteLine("Invalid choice. Please select 1 for Addition, 2 for Subtraction, or 3 to Delete All Inventory Products.");
                 }
             }
