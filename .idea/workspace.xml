@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8ed7114-b7be-4dd2-8bcc-5f171659e1f3" name="Changes" comment="dynamic task 13" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2kynv74E9LGlBWsAJkjDhgSHoss" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8ed7114-b7be-4dd2-8bcc-5f171659e1f3" name="Changes" comment="" />
+      <created>1724264916153</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724264916153</updated>
+      <workItem from="1724264917866" duration="4320000" />
+      <workItem from="1724330109360" duration="7502000" />
+      <workItem from="1724355000024" duration="305000" />
+      <workItem from="1724427294647" duration="10301000" />
+      <workItem from="1724661558202" duration="26677000" />
+      <workItem from="1724784487586" duration="4103000" />
+      <workItem from="1725039959191" duration="3311000" />
+      <workItem from="1725095292095" duration="4118000" />
+      <workItem from="1725104895417" duration="19000" />
+      <workItem from="1725177072462" duration="13631000" />
+      <workItem from="1725284687575" duration="8791000" />
+      <workItem from="1725382682591" duration="1333000" />
+      <workItem from="1725541757973" duration="9671000" />
+      <workItem from="1725648472097" duration="1025000" />
+      <workItem from="1725698835747" duration="1999000" />
+      <workItem from="1725981630770" duration="300000" />
+      <workItem from="1725996558728" duration="4898000" />
+      <workItem from="1726030659344" duration="40656000" />
+      <workItem from="1727021088159" duration="298000" />
+    </task>
+    <task id="LOCAL-00001" summary="dynamic">
+      <option name="closed" value="true" />
+      <created>1724355294308</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724355294309</updated>
+    </task>
+    <task id="LOCAL-00002" summary="dynamic">
+      <option name="closed" value="true" />
+      <created>1724788412353</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724788412354</updated>
+    </task>
+    <task id="LOCAL-00003" summary="dynamic task 10">
+      <option name="closed" value="true" />
+      <created>1725306189424</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725306189424</updated>
+    </task>
+    <task id="LOCAL-00004" summary="dynamic task 11">
+      <option name="closed" value="true" />
+      <created>1725468839231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725468839231</updated>
+    </task>
+    <task id="LOCAL-00005" summary="dynamic task 11">
+      <option name="closed" value="true" />
+      <created>1725649409099</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725649409099</updated>
+    </task>
+    <task id="LOCAL-00006" summary="dynamic task 12">
+      <option name="closed" value="true" />
+      <created>1726062696678</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726062696678</updated>
+    </task>
+    <task id="LOCAL-00007" summary="dynamic task 13">
+      <option name="closed" value="true" />
+      <created>1726086601283</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726086601284</updated>
+    </task>
+    <task id="LOCAL-00008" summary="dynamic task 13">
+      <option name="closed" value="true" />
+      <created>1726087966953</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726087966953</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dynamic" />
+    <MESSAGE value="dynamic task 10" />
+    <MESSAGE value="dynamic task 11" />
+    <MESSAGE value="dynamic task 12" />
+    <MESSAGE value="dynamic task 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="dynamic task 13" />
+  </component>
+</project>

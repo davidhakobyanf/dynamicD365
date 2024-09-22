@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://org38d80590.crm4.dynamics.com//WebResources/cr651_css_inventory_products_popup">
+    <link rel="stylesheet" href="index.css">
+    <title>Inventory Product Management</title>
+    <style>
+        /* Add some basic styles for the disabled button */
+        .saveButton:disabled {
+            background-color: grey;
+            cursor: not-allowed;
+        }
+    </style>
+    <script>
+        let cleanInventoryId;
+        let selectedProductId;
+
+        window.onload = async (event) => {
+            console.log("Current URL:", window.location.href);
+
+            // Read inventoryId from URL parameters
+            let inventoryId = readParameterValues("inventoryId");
+
+            // Clean the inventoryId (remove curly braces)
+            if (inventoryId) {
+                cleanInventoryId = inventoryId.replace(/{|}/g, '');
+                console.log("Clean Inventory ID:", cleanInventoryId);
+            } else {
+                console.error("Inventory ID not found");
+            }
+
+            // Fetch products and populate the dropdown
+            let fetchXml = `
+                <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+                    <entity name="cr651_products">
+                        <attribute name="cr651_productsid"/>
+                        <attribute name="cr651_name"/>
+                    </entity>
+                </fetch>
+            `;
+            let encodedFetchXml = "?fetchXml=" + encodeURIComponent(fetchXml);
+            let ProductResults = await parent.Xrm.WebApi.retrieveMultipleRecords('cr651_products', encodedFetchXml);
+            let productsDropDown = document.getElementById('products');
+
+            // Add default option
+            productsDropDown.options[productsDropDown.options.length] = new Option("Select a product", "", true, true);
+
+            if (ProductResults.entities.length > 0) {
+                for (let i = 0; i < ProductResults.entities.length; i++) {
+                    let product = ProductResults.entities[i];
+                    productsDropDown.options[productsDropDown.options.length] = new Option(product['cr651_name'], product['cr651_productsid']);
+                }
+            } else {
+                console.log("No records found.");
+            }
+
+            // Disable the Save button initially
+            const saveButton = document.querySelector('.saveButton');
+            saveButton.disabled = true;
+
+            // Get the quantity input field
+            const quantityInput = document.getElementById('quantity');
+
+            // Function to check if Save button should be enabled
+            function checkEnableSaveButton() {
+                const quantityValue = quantityInput.value;
+                if (selectedProductId && quantityValue && parseInt(quantityValue) > 0) {
+                    saveButton.disabled = false;
+                } else {
+                    saveButton.disabled = true;
+                }
+            }
+
+            // Listen for product selection change
+            productsDropDown.addEventListener('change', function () {
+                selectedProductId = productsDropDown.value;
+                console.log("Selected Product ID:", selectedProductId);
+                checkEnableSaveButton();  // Check whether Save should be enabled
+            });
+
+            // Listen for quantity input change
+            quantityInput.addEventListener('input', function () {
+                checkEnableSaveButton();  // Check whether Save should be enabled
+            });
+
+            // Add event listener to Save button
+            saveButton.addEventListener('click', async function () {
+                let operation = document.getElementById('operations').value;
+                let quantity = parseInt(quantityInput.value);
+
+                if (!selectedProductId || !cleanInventoryId) {
+                    console.error("Product ID or Inventory ID is missing.");
+                    showErrorMessage("Product or Inventory not selected.");
+                    return;
+                }
+
+                // Fetch current quantity and check if product exists in the inventory
+                let { currentQuantity, isProductExists } = await getInventoryQuantity(selectedProductId, cleanInventoryId);
+
+                if (!isProductExists && operation === 'in') {
+                    let pricePerUnit = 1;  // Specify unit price
+                    await createInventoryProduct(selectedProductId, cleanInventoryId, quantity, pricePerUnit);
+                } else if (!isProductExists && operation === 'out') {
+                    showErrorMessage("Error: Product not found in the inventory.");
+                    return;
+                } else {
+                    if (operation === 'in') {
+                        currentQuantity += quantity;
+                    } else if (operation === 'out') {
+                        if (quantity > currentQuantity) {
+                            showErrorMessage("Error: Not enough quantity available.");
+                            return;
+                        } else {
+                            currentQuantity -= quantity;
+                        }
+                    }
+
+                    console.log('Updated Quantity:', currentQuantity);
+                    await updateInventoryQuantity(selectedProductId, cleanInventoryId, currentQuantity);
+                    console.log("Quantity updated successfully to:", currentQuantity);
+                }
+            });
+
+            // Add event listener to Cancel button
+            document.querySelector('.cancelButton').addEventListener('click', function () {
+                console.log("Operation cancelled.");
+                window.close();  // Close the popup or do another action
+            });
+        }
+
+        // Function to read URL parameters
+        function readParameterValues(parameterName) {
+            let queryParams = new URLSearchParams(window.location.search);
+            let paramValue = queryParams.get('data');
+            if (paramValue) {
+                let decodedData = JSON.parse(decodeURIComponent(paramValue));
+                return decodedData[parameterName];
+            }
+            return null;
+        }
+
+        // Function to fetch the current quantity for the selected product and inventory
+        async function getInventoryQuantity(productId, inventoryId) {
+            let fetchXml = `
+                <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+                    <entity name="cr651_inventory_product">
+                        <attribute name="cr651_int_quantity"/>
+                        <filter>
+                            <condition attribute="cr651_fk_inventory" operator="eq" value="${inventoryId}"/>
+                            <condition attribute="cr651_fk_product" operator="eq" value="${productId}"/>
+                        </filter>
+                    </entity>
+                </fetch>
+            `;
+            let encodedFetchXml = "?fetchXml=" + encodeURIComponent(fetchXml);
+            let result = await parent.Xrm.WebApi.retrieveMultipleRecords('cr651_inventory_product', encodedFetchXml);
+            console.log(result, 'Inventory Product Result');
+
+            if (result.entities.length > 0) {
+                return {
+                    currentQuantity: parseInt(result.entities[0]['cr651_int_quantity']),
+                    isProductExists: true
+                };
+            }
+            return {
+                currentQuantity: 0,
+                isProductExists: false
+            };
+        }
+
+        // Function to create a new inventory product record
+        async function createInventoryProduct(productId, inventoryId, quantity, pricePerUnit) {
+            let totalAmount = pricePerUnit * quantity;
+
+            let data = {
+                "cr651_fk_product@odata.bind": `/cr651_productses(${productId})`,
+                "cr651_fk_inventory@odata.bind": `/cr651_inventories(${inventoryId})`,
+                "cr651_int_quantity": quantity,
+                "cr651_mon_price_per_unit": pricePerUnit,
+                "cr651_mon_total_amount": totalAmount
+            };
+
+            try {
+                let result = await parent.Xrm.WebApi.createRecord("cr651_inventory_product", data);
+                console.log('New inventory product created with ID:', result.id);
+            } catch (error) {
+                console.error('Error creating new inventory product:', error);
+                showErrorMessage('Error creating new inventory product.');
+            }
+        }
+
+        // Function to update the quantity and total amount
+        async function updateInventoryQuantity(productId, inventoryId, newQuantity) {
+            try {
+                let fetchXml = `
+                    <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+                        <entity name="cr651_inventory_product">
+                            <attribute name="cr651_inventory_productid"/>
+                            <attribute name="cr651_mon_price_per_unit"/>
+                            <filter>
+                                <condition attribute="cr651_fk_inventory" operator="eq" value="${inventoryId}"/>
+                                <condition attribute="cr651_fk_product" operator="eq" value="${productId}"/>
+                            </filter>
+                        </entity>
+                    </fetch>
+                `;
+
+                let encodedFetchXml = "?fetchXml=" + encodeURIComponent(fetchXml);
+                let result = await parent.Xrm.WebApi.retrieveMultipleRecords('cr651_inventory_product', encodedFetchXml);
+
+                if (result.entities.length === 0) {
+                    console.error('Inventory product record not found.');
+                    alert('Error: Inventory product record not found.');
+                    return;
+                }
+
+                let inventoryProductId = result.entities[0]['cr651_inventory_productid'];
+                let pricePerUnit = parseFloat(result.entities[0]['cr651_mon_price_per_unit']);
+                let totalAmount = pricePerUnit * newQuantity;
+
+                let updateData = {
+                    cr651_int_quantity: newQuantity,
+                    cr651_mon_total_amount: totalAmount
+                };
+
+                await parent.Xrm.WebApi.updateRecord('cr651_inventory_product', inventoryProductId, updateData);
+                console.log('Inventory product updated with new quantity and total amount:', newQuantity, totalAmount);
+
+            } catch (error) {
+                console.error('Error updating inventory product:', error);
+                showErrorMessage('An error occurred while updating the inventory product.');
+            }
+        }
+
+        // Function to show error messages
+        function showErrorMessage(message) {
+            alert(message); // You can improve this with a better UI display
+            console.error(message);
+        }
+    </script>
+</head>
+<body>
+<label for="products">Choose a Product:</label>
+<select name="products" id="products">
+    <!-- Populated dynamically -->
+</select>
+
+<label for="operations">Choose an Operation:</label>
+<select name="operations" id="operations">
+    <option value="in">In</option>
+    <option value="out">Out</option>
+</select>
+
+<label for="quantity">Enter Quantity:</label>
+<input type="number" name="quantity" id="quantity">
+
+<div class="containerButton">
+    <button class="saveButton" disabled>Save</button>
+    <button class="cancelButton">Cancel</button>
+</div>
+</body>
+</html>
