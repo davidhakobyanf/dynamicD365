@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\ConsoleApp1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:ConsoleApp1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\hakob\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\back-end\\consoleapp1\\consoleapp1\\utilities\\d365connector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\utilities\\d365connector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\ConsoleApp1\\Model\\InventoryProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:ConsoleApp1\\Model\\InventoryProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\ConsoleApp1\\Model\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:ConsoleApp1\\Model\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\ConsoleApp1\\Model\\Inventories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:ConsoleApp1\\Model\\Inventories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\ConsoleApp1\\Model\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:ConsoleApp1\\Model\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\ConsoleApp1\\Model\\PriceListItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:ConsoleApp1\\Model\\PriceListItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\ConsoleApp1\\Model\\InventoryProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:ConsoleApp1\\Model\\InventoryProduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC70E115-1CF6-445C-87CE-C9986C07B25B}|ConsoleApp1\\ConsoleApp1.csproj|C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\ConsoleApp1\\Model\\PriceList.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Inventories.cs",
               "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\ConsoleApp1\\Model\\Inventories.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Model\\Inventories.cs",
@@ -54,13 +54,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "D365Connector.cs",
               "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\ConsoleApp1\\Utilities\\D365Connector.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Utilities\\D365Connector.cs",
               "ToolTip": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\ConsoleApp1\\Utilities\\D365Connector.cs",
               "RelativeToolTip": "ConsoleApp1\\Utilities\\D365Connector.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwBIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T18:51:37.268Z",
               "EditorCaption": ""
@@ -79,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "PriceListItem.cs",
               "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\ConsoleApp1\\Model\\PriceListItem.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Model\\PriceListItem.cs",
@@ -91,19 +91,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAwwFMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T12:20:20.01Z"
+              "WhenOpened": "2024-09-19T12:20:20.01Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "InventoryProduct.cs",
               "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\ConsoleApp1\\ConsoleApp1\\Model\\InventoryProduct.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Model\\InventoryProduct.cs",
@@ -111,8 +112,7 @@
               "RelativeToolTip": "ConsoleApp1\\Model\\InventoryProduct.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAADgvw8AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T08:24:33.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T08:24:33.04Z"
             },
             {
               "$type": "Document",

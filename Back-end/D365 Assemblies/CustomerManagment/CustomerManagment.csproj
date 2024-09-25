@@ -132,12 +132,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddInventoryPlugin.cs" />
     <Compile Include="AddInventoryProductPlugin.cs" />
     <Compile Include="AutoFileContactFullName.cs" />
     <Compile Include="DeleteInventoryProductPlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestDelete.cs" />
     <Compile Include="TestUpdate.cs" />
+    <Compile Include="UpdateInventoryCurrencyPlugin.cs" />
+    <Compile Include="UpdateInventoryProductCurrencyPlugin.cs" />
     <Compile Include="UpdateInventoryProductPlugin.cs" />
     <Compile Include="updatePriceListItemsCurrencyFromPriceList.cs" />
   </ItemGroup>

@@ -20,7 +20,7 @@ public class AddInventoryProductPlugin : IPlugin
             {
                 Money productTotalAmount = inventoryProduct.GetAttributeValue<Money>("cr651_mon_total_amount");
 
-           
+
                 if (inventoryProduct.Contains("cr651_fk_inventory"))
                 {
                     Guid inventoryId = inventoryProduct.GetAttributeValue<EntityReference>("cr651_fk_inventory").Id;
@@ -31,10 +31,10 @@ public class AddInventoryProductPlugin : IPlugin
                         ? inventory.GetAttributeValue<Money>("cr651_mon_total_amount")
                         : new Money(0);
 
-                   
+
                     Money updatedTotalAmount = new Money(currentInventoryTotalAmount.Value + productTotalAmount.Value);
 
-                 
+
                     inventory["cr651_mon_total_amount"] = updatedTotalAmount;
                     service.Update(inventory);
                 }
