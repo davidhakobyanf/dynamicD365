@@ -4,43 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8ed7114-b7be-4dd2-8bcc-5f171659e1f3" name="Changes" comment="back">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/dynamic/v17/workspaceFileList.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/dynamic/v17/workspaceFileList.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/ConsoleApp1/.vs/ConsoleApp1/FileContentIndex/644739da-457b-4af7-a831-2e5446804628.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/ConsoleApp1/.vs/ConsoleApp1/FileContentIndex/734fe42c-f4df-439d-8125-ce7ab99f3598.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/ConsoleApp1/.vs/ConsoleApp1/FileContentIndex/918d76de-1e4c-4202-95ff-527cafe7df57.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/ConsoleApp1/.vs/ConsoleApp1/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/ConsoleApp1/.vs/ConsoleApp1/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/ConsoleApp1/.vs/ConsoleApp1/v17/.wsuo" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/ConsoleApp1/.vs/ConsoleApp1/v17/.wsuo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/ConsoleApp1/.vs/ConsoleApp1/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/ConsoleApp1/.vs/ConsoleApp1/v17/DocumentLayout.backup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/ConsoleApp1/.vs/ConsoleApp1/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/ConsoleApp1/.vs/ConsoleApp1/v17/DocumentLayout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/ConsoleApp1/.vs/ConsoleApp1/v17/workspaceFileList.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/ConsoleApp1/.vs/ConsoleApp1/v17/workspaceFileList.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/ConsoleApp1/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/ConsoleApp1/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/ConsoleApp1/ConsoleApp1/bin/Debug/ConsoleApp1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/ConsoleApp1/ConsoleApp1/bin/Debug/ConsoleApp1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/ConsoleApp1/ConsoleApp1/bin/Debug/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/ConsoleApp1/ConsoleApp1/bin/Debug/ConsoleApp1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/ConsoleApp1/ConsoleApp1/obj/Debug/ConsoleApp1.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/ConsoleApp1/ConsoleApp1/obj/Debug/ConsoleApp1.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/ConsoleApp1/ConsoleApp1/obj/Debug/ConsoleApp1.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/ConsoleApp1/ConsoleApp1/obj/Debug/ConsoleApp1.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/ConsoleApp1/ConsoleApp1/obj/Debug/ConsoleApp1.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/ConsoleApp1/ConsoleApp1/obj/Debug/ConsoleApp1.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/ConsoleApp1/ConsoleApp1/obj/Debug/ConsoleApp1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/ConsoleApp1/ConsoleApp1/obj/Debug/ConsoleApp1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/ConsoleApp1/ConsoleApp1/obj/Debug/ConsoleApp1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/ConsoleApp1/ConsoleApp1/obj/Debug/ConsoleApp1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/D365 Assemblies/.vs/D365 Assemblies/FileContentIndex/01ea2774-c652-4ee4-b88e-9e1ea239017c.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/D365 Assemblies/.vs/D365 Assemblies/FileContentIndex/1055b04c-8751-426f-b2cf-f96707b501fa.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/D365 Assemblies/.vs/D365 Assemblies/FileContentIndex/4aa0dd63-39df-49a6-8ef6-ec4d97d6406e.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/D365 Assemblies/.vs/D365 Assemblies/FileContentIndex/4df1f8c2-0ea1-4ad8-b471-000498b54a32.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/D365 Assemblies/.vs/D365 Assemblies/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/D365 Assemblies/.vs/D365 Assemblies/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/D365 Assemblies/.vs/D365 Assemblies/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/D365 Assemblies/.vs/D365 Assemblies/v17/DocumentLayout.backup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/D365 Assemblies/.vs/D365 Assemblies/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/D365 Assemblies/.vs/D365 Assemblies/v17/DocumentLayout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/D365 Assemblies/CustomerManagment/AddInventoryProductPlugin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/D365 Assemblies/CustomerManagment/AddInventoryProductPlugin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/D365 Assemblies/CustomerManagment/CustomerManagment.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/D365 Assemblies/CustomerManagment/CustomerManagment.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/D365 Assemblies/CustomerManagment/bin/Debug/CustomerManagment.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/D365 Assemblies/CustomerManagment/bin/Debug/CustomerManagment.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/D365 Assemblies/CustomerManagment/bin/Debug/CustomerManagment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/D365 Assemblies/CustomerManagment/bin/Debug/CustomerManagment.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/D365 Assemblies/CustomerManagment/obj/Debug/CustomerManagment.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/D365 Assemblies/CustomerManagment/obj/Debug/CustomerManagment.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/D365 Assemblies/CustomerManagment/obj/Debug/CustomerManagment.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/D365 Assemblies/CustomerManagment/obj/Debug/CustomerManagment.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/D365 Assemblies/CustomerManagment/obj/Debug/CustomerManagment.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/D365 Assemblies/CustomerManagment/obj/Debug/CustomerManagment.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/D365 Assemblies/CustomerManagment/obj/Debug/CustomerManagment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/D365 Assemblies/CustomerManagment/obj/Debug/CustomerManagment.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="b8ed7114-b7be-4dd2-8bcc-5f171659e1f3" name="Changes" comment="back" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,6 +68,7 @@
       <workItem from="1727182584723" duration="639000" />
       <workItem from="1727191248363" duration="269000" />
       <workItem from="1727276246890" duration="32000" />
+      <workItem from="1727276879534" duration="81000" />
     </task>
     <task id="LOCAL-00001" summary="dynamic">
       <option name="closed" value="true" />
@@ -185,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727022039806</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="back">
+      <option name="closed" value="true" />
+      <created>1727276908042</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1727276908042</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
