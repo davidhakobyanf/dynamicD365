@@ -135,6 +135,7 @@
     <Compile Include="AddInventoryPlugin.cs" />
     <Compile Include="AddInventoryProductPlugin.cs" />
     <Compile Include="AutoFileContactFullName.cs" />
+    <Compile Include="AddAutoNumNumerationsForCustomerAssetName.cs" />
     <Compile Include="DeleteInventoryProductPlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestDelete.cs" />
