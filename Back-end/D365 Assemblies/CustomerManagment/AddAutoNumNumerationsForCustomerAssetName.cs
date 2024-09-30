@@ -54,7 +54,14 @@ namespace CustomerManagment
                                 {
                                     new OrderExpression("createdon", OrderType.Descending)
                                 },
-                                TopCount = 1
+                                TopCount = 1,
+                                Criteria =
+                                {
+                                    Conditions =
+                                    {
+                                        new ConditionExpression("cr651_fk_account", ConditionOperator.Equal, accountReference.Id)
+                                    }
+                                }
                             };
                             tracingService.Trace("Query to retrieve the last asset created (across all accounts).");
 

@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E98310A3-BEA6-4DF2-A9E8-F74E73F084BF}|CustomerManagment\\CustomerManagment.csproj|c:\\users\\hakob\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\back-end\\d365 assemblies\\customermanagment\\updatebookingsfromresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98310A3-BEA6-4DF2-A9E8-F74E73F084BF}|CustomerManagment\\CustomerManagment.csproj|solutionrelative:customermanagment\\updatebookingsfromresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98310A3-BEA6-4DF2-A9E8-F74E73F084BF}|CustomerManagment\\CustomerManagment.csproj|c:\\users\\hakob\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\back-end\\d365 assemblies\\customermanagment\\addbookingsfromresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98310A3-BEA6-4DF2-A9E8-F74E73F084BF}|CustomerManagment\\CustomerManagment.csproj|solutionrelative:customermanagment\\addbookingsfromresources.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E98310A3-BEA6-4DF2-A9E8-F74E73F084BF}|CustomerManagment\\CustomerManagment.csproj|c:\\users\\hakob\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\back-end\\d365 assemblies\\customermanagment\\addautonumnumerationsforcustomerassetname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E98310A3-BEA6-4DF2-A9E8-F74E73F084BF}|CustomerManagment\\CustomerManagment.csproj|solutionrelative:customermanagment\\addautonumnumerationsforcustomerassetname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98310A3-BEA6-4DF2-A9E8-F74E73F084BF}|CustomerManagment\\CustomerManagment.csproj|c:\\users\\hakob\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\back-end\\d365 assemblies\\customermanagment\\addinventoryplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98310A3-BEA6-4DF2-A9E8-F74E73F084BF}|CustomerManagment\\CustomerManagment.csproj|solutionrelative:customermanagment\\addinventoryplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E98310A3-BEA6-4DF2-A9E8-F74E73F084BF}|CustomerManagment\\CustomerManagment.csproj|c:\\users\\hakob\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\back-end\\d365 assemblies\\customermanagment\\testdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E98310A3-BEA6-4DF2-A9E8-F74E73F084BF}|CustomerManagment\\CustomerManagment.csproj|solutionrelative:customermanagment\\testdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddInventoryPlugin.cs",
+              "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\CustomerManagment\\AddInventoryPlugin.cs",
+              "RelativeDocumentMoniker": "CustomerManagment\\AddInventoryPlugin.cs",
+              "ToolTip": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\CustomerManagment\\AddInventoryPlugin.cs",
+              "RelativeToolTip": "CustomerManagment\\AddInventoryPlugin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T10:20:49.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UpdateBookingsFromResources.cs",
+              "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\CustomerManagment\\UpdateBookingsFromResources.cs",
+              "RelativeDocumentMoniker": "CustomerManagment\\UpdateBookingsFromResources.cs",
+              "ToolTip": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\CustomerManagment\\UpdateBookingsFromResources.cs",
+              "RelativeToolTip": "CustomerManagment\\UpdateBookingsFromResources.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAFQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T10:19:03.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddBookingsFromResources.cs",
+              "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\CustomerManagment\\AddBookingsFromResources.cs",
+              "RelativeDocumentMoniker": "CustomerManagment\\AddBookingsFromResources.cs",
+              "ToolTip": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\CustomerManagment\\AddBookingsFromResources.cs",
+              "RelativeToolTip": "CustomerManagment\\AddBookingsFromResources.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAC0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T09:58:45.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestDelete.cs",
+              "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\CustomerManagment\\TestDelete.cs",
+              "RelativeDocumentMoniker": "CustomerManagment\\TestDelete.cs",
+              "ToolTip": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\CustomerManagment\\TestDelete.cs",
+              "RelativeToolTip": "CustomerManagment\\TestDelete.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T09:32:09.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AddAutoNumNumerationsForCustomerAssetName.cs",
               "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\CustomerManagment\\AddAutoNumNumerationsForCustomerAssetName.cs",
               "RelativeDocumentMoniker": "CustomerManagment\\AddAutoNumNumerationsForCustomerAssetName.cs",
               "ToolTip": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\CustomerManagment\\AddAutoNumNumerationsForCustomerAssetName.cs",
               "RelativeToolTip": "CustomerManagment\\AddAutoNumNumerationsForCustomerAssetName.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAADwvzMAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T15:43:12.934Z",
               "EditorCaption": ""

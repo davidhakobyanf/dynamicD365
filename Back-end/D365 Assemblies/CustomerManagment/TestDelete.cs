@@ -21,7 +21,7 @@ namespace CustomerManagment
 
             if (context.InputParameters.Contains("Target") && context.InputParameters["Target"] is EntityReference)
             {
-                Entity priceList = (Entity)context.InputParameters["Target"];
+                EntityReference priceList = (EntityReference)context.InputParameters["Target"];
                 try
                 {
                     EntityReference priceListItemRef = (EntityReference)context.InputParameters["Target"];
