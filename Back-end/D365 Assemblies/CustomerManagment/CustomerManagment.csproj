@@ -145,6 +145,7 @@
     <Compile Include="UpdateInventoryCurrencyPlugin.cs" />
     <Compile Include="UpdateInventoryProductCurrencyPlugin.cs" />
     <Compile Include="UpdateInventoryProductPlugin.cs" />
+    <Compile Include="UpdateInventoryProductUsingWorkOrderProductQuantity.cs" />
     <Compile Include="updatePriceListItemsCurrencyFromPriceList.cs" />
   </ItemGroup>
   <ItemGroup>
