@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CustomerManagment
 {
-    public class AutoFileContactFullName : IPlugin
+    public class AutoFileContactFullName : IPlugin  
     {
         public void Execute(IServiceProvider serviceProvider)
         {
