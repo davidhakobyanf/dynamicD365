@@ -37,8 +37,8 @@ async function getContactAccount(executionContext) {
             let encodedFetchXml = "?fetchXml=" + encodeURIComponent(fetchXml);
             let fetchResult = await Xrm.WebApi.retrieveMultipleRecords('cr651_contact', encodedFetchXml);
             let contactResult = fetchResult.entities;
-                console.log(fetchResult, 'Contact Result3');
-                contactLookupPointer = filterContact.bind({ 'contactResult': contactResult});
+            console.log(fetchResult, 'Contact Result3');
+            contactLookupPointer = filterContact.bind({ 'contactResult': contactResult});
             formContext.getControl("cr651_fk_contact").addPreSearch(contactLookupPointer);
             console.log(contactResult,'contactResult.entities')
 
@@ -73,6 +73,26 @@ function filterContact(executionContext) {
     console.log(contactEntities,'contactEntities')
     formContext.getControl("cr651_fk_contact").addCustomFilter(contactFilter, "cr651_contact");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
