@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://api.cba.am/exchangerates.asmx?wsdl" docRef="https://api.cba.am/exchangerates.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://api.cba.am/exchangerates.asmx" xmlns:q1="http://www.cba.am/" binding="q1:GateSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://api.cba.am/exchangerates.asmx" xmlns:q2="http://www.cba.am/" binding="q2:GateSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

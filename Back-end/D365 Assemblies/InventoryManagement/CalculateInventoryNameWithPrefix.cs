@@ -27,7 +27,7 @@ namespace InventoryManagment
             IWorkflowContext context = executionContext.GetExtension<IWorkflowContext>();
             IOrganizationServiceFactory serviceFactory = executionContext.GetExtension<IOrganizationServiceFactory>();
             IOrganizationService service = serviceFactory.CreateOrganizationService(context.UserId);
-            IExecutionContext crmContext = executionContext.GetExtension<IExecutionContext>();
+            
 
             try
             {

@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B533CBB-0FED-4199-B6E5-BC7EA16C53D1}|ContactManagement\\ContactManagement.csproj|c:\\users\\hakob\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\back-end\\d365 assemblies\\contactmanagement\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{1B533CBB-0FED-4199-B6E5-BC7EA16C53D1}|ContactManagement\\ContactManagement.csproj|solutionrelative:contactmanagement\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{33988BE3-9685-4AB4-86CD-6DD882197BDE}|WorkOrderManagement\\WorkOrderManagement.csproj|c:\\users\\hakob\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\back-end\\d365 assemblies\\workordermanagement\\updateinvoucenumbernameinv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33988BE3-9685-4AB4-86CD-6DD882197BDE}|WorkOrderManagement\\WorkOrderManagement.csproj|solutionrelative:workordermanagement\\updateinvoucenumbernameinv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6384110B-1531-4C15-8CBF-71C403D8064C}|ActualManagement\\ActualManagement.csproj|c:\\users\\hakob\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\back-end\\d365 assemblies\\actualmanagement\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6384110B-1531-4C15-8CBF-71C403D8064C}|ActualManagement\\ActualManagement.csproj|solutionrelative:actualmanagement\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33988BE3-9685-4AB4-86CD-6DD882197BDE}|WorkOrderManagement\\WorkOrderManagement.csproj|c:\\users\\hakob\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\back-end\\d365 assemblies\\workordermanagement\\updateinventoryproductusingworkorderproductquantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33988BE3-9685-4AB4-86CD-6DD882197BDE}|WorkOrderManagement\\WorkOrderManagement.csproj|solutionrelative:workordermanagement\\updateinventoryproductusingworkorderproductquantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{667BCBE8-6468-4E1E-92AB-869070C957E6}|ResourcesManagement\\ResourcesManagement.csproj|c:\\users\\hakob\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\back-end\\d365 assemblies\\resourcesmanagement\\calculateageresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{667BCBE8-6468-4E1E-92AB-869070C957E6}|ResourcesManagement\\ResourcesManagement.csproj|solutionrelative:resourcesmanagement\\calculateageresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33988BE3-9685-4AB4-86CD-6DD882197BDE}|WorkOrderManagement\\WorkOrderManagement.csproj|c:\\users\\hakob\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\back-end\\d365 assemblies\\workordermanagement\\deleteinvoiceworkorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33988BE3-9685-4AB4-86CD-6DD882197BDE}|WorkOrderManagement\\WorkOrderManagement.csproj|solutionrelative:workordermanagement\\deleteinvoiceworkorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{667BCBE8-6468-4E1E-92AB-869070C957E6}|ResourcesManagement\\ResourcesManagement.csproj|c:\\users\\hakob\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\back-end\\d365 assemblies\\resourcesmanagement\\autofileresourcefullname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{667BCBE8-6468-4E1E-92AB-869070C957E6}|ResourcesManagement\\ResourcesManagement.csproj|solutionrelative:resourcesmanagement\\autofileresourcefullname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E98310A3-BEA6-4DF2-A9E8-F74E73F084BF}|CustomerManagment\\CustomerManagement.csproj|c:\\users\\hakob\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\back-end\\d365 assemblies\\customermanagment\\autofilecontactfullname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E98310A3-BEA6-4DF2-A9E8-F74E73F084BF}|CustomerManagment\\CustomerManagement.csproj|solutionrelative:customermanagment\\autofilecontactfullname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{33988BE3-9685-4AB4-86CD-6DD882197BDE}|WorkOrderManagement\\WorkOrderManagement.csproj|c:\\users\\hakob\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\back-end\\d365 assemblies\\workordermanagement\\addinvoiceandinvoiceproductworkorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33988BE3-9685-4AB4-86CD-6DD882197BDE}|WorkOrderManagement\\WorkOrderManagement.csproj|solutionrelative:workordermanagement\\addinvoiceandinvoiceproductworkorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\ActualManagement\\Class1.cs",
-              "RelativeDocumentMoniker": "ActualManagement\\Class1.cs",
-              "ToolTip": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\ActualManagement\\Class1.cs",
-              "RelativeToolTip": "ActualManagement\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T20:11:10.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "packages.config",
-              "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\ContactManagement\\packages.config",
-              "RelativeDocumentMoniker": "ContactManagement\\packages.config",
-              "ToolTip": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\ContactManagement\\packages.config",
-              "RelativeToolTip": "ContactManagement\\packages.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-07T19:54:58.985Z",
+              "Title": "UpdateInvouceNumberNameInv.cs",
+              "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\WorkOrderManagement\\UpdateInvouceNumberNameInv.cs",
+              "RelativeDocumentMoniker": "WorkOrderManagement\\UpdateInvouceNumberNameInv.cs",
+              "ToolTip": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\WorkOrderManagement\\UpdateInvouceNumberNameInv.cs*",
+              "RelativeToolTip": "WorkOrderManagement\\UpdateInvouceNumberNameInv.cs*",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAAAEgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T18:40:18.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AutoFileResourceFullName.cs",
-              "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\ResourcesManagement\\AutoFileResourceFullName.cs",
-              "RelativeDocumentMoniker": "ResourcesManagement\\AutoFileResourceFullName.cs",
-              "ToolTip": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\ResourcesManagement\\AutoFileResourceFullName.cs",
-              "RelativeToolTip": "ResourcesManagement\\AutoFileResourceFullName.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UpdateInventoryProductUsingWorkOrderProductQuantity.cs",
+              "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\WorkOrderManagement\\UpdateInventoryProductUsingWorkOrderProductQuantity.cs",
+              "RelativeDocumentMoniker": "WorkOrderManagement\\UpdateInventoryProductUsingWorkOrderProductQuantity.cs",
+              "ToolTip": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\WorkOrderManagement\\UpdateInventoryProductUsingWorkOrderProductQuantity.cs",
+              "RelativeToolTip": "WorkOrderManagement\\UpdateInventoryProductUsingWorkOrderProductQuantity.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T17:35:20.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AutoFileContactFullName.cs",
-              "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\CustomerManagment\\AutoFileContactFullName.cs",
-              "RelativeDocumentMoniker": "CustomerManagment\\AutoFileContactFullName.cs",
-              "ToolTip": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\CustomerManagment\\AutoFileContactFullName.cs",
-              "RelativeToolTip": "CustomerManagment\\AutoFileContactFullName.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T17:34:19.656Z",
+              "WhenOpened": "2024-10-11T18:39:58.885Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CalculateAgeResource.cs",
-              "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\ResourcesManagement\\CalculateAgeResource.cs",
-              "RelativeDocumentMoniker": "ResourcesManagement\\CalculateAgeResource.cs",
-              "ToolTip": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\ResourcesManagement\\CalculateAgeResource.cs",
-              "RelativeToolTip": "ResourcesManagement\\CalculateAgeResource.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwB0AAABFAAAAAAAAAA==",
+              "Title": "DeleteInvoiceWorkOrder.cs",
+              "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\WorkOrderManagement\\DeleteInvoiceWorkOrder.cs",
+              "RelativeDocumentMoniker": "WorkOrderManagement\\DeleteInvoiceWorkOrder.cs",
+              "ToolTip": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\WorkOrderManagement\\DeleteInvoiceWorkOrder.cs*",
+              "RelativeToolTip": "WorkOrderManagement\\DeleteInvoiceWorkOrder.cs*",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T17:16:36.194Z",
+              "WhenOpened": "2024-10-11T18:39:07.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddInvoiceAndInvoiceProductWorkOrder.cs",
+              "DocumentMoniker": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\WorkOrderManagement\\AddInvoiceAndInvoiceProductWorkOrder.cs",
+              "RelativeDocumentMoniker": "WorkOrderManagement\\AddInvoiceAndInvoiceProductWorkOrder.cs",
+              "ToolTip": "C:\\Users\\hakob\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\dynamic\\Back-end\\D365 Assemblies\\WorkOrderManagement\\AddInvoiceAndInvoiceProductWorkOrder.cs*",
+              "RelativeToolTip": "WorkOrderManagement\\AddInvoiceAndInvoiceProductWorkOrder.cs*",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T18:35:49.275Z",
               "EditorCaption": ""
             }
           ]
